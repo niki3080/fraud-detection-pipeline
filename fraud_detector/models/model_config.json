@@ -1,0 +1,19 @@
+{
+  "threshold": 0.9724183638956895,
+  "features": [
+    "gender_cat_mean_enc",
+    "merch_cat_mean_enc",
+    "cat_id_cat_mean_enc",
+    "one_city_cat_mean_enc",
+    "us_state_cat_mean_enc",
+    "jobs_cat_mean_enc",
+    "hour_mean_enc",
+    "year_mean_enc",
+    "month_mean_enc",
+    "day_of_month_mean_enc",
+    "day_of_week_mean_enc",
+    "amount_log",
+    "population_city_log",
+    "distance_log"
+  ]
+}

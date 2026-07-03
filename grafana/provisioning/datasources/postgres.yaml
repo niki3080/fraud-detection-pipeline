@@ -1,0 +1,17 @@
+apiVersion: 1
+
+datasources:
+  - name: grafana-postgresql-datasource
+    uid: afoztryu3ueiob
+    type: postgres
+    access: proxy
+    url: postgres:5432
+    database: fraud_db
+    user: fraud_user
+    secureJsonData:
+      password: fraud_pass
+    jsonData:
+      database: fraud_db
+      sslmode: disable
+      postgresVersion: 1500
+      timescaledb: false
